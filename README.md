@@ -1,8 +1,12 @@
-# IOT
-IOT Project
+1. yarn
+2. yarn build
+3. yarn dev
 
-1. Yarn build
-2. Yarn dev
+#register
+* link: localhost:1337/auth/local/register
+* params: username (string), email (string), password (string)
 
-Register: localhost:1337/auth/local/register (username, email, password)
-Login: localhost:1337/auth/local (identifier, password)
+#login
+* link: localhost:1337/auth/local
+* params: identifier (string), password (string)
+
